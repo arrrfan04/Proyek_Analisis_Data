@@ -40,7 +40,7 @@ def create_sum_order_items_df(df):
 
 
 # Load cleaned data
-all_df = pd.read_csv("https://raw.githubusercontent.com/arrrfan04/Proyek_Analisis_Data/main/Dashboard/all_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/arrrfan04/Proyek_Analisis_Data/main/Dashboard/main_data.csv")
 
 datetime_columns = ["dteday"]
 all_df.sort_values(by="dteday", inplace=True)
